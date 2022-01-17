@@ -17,7 +17,6 @@ const App = () => {
   React.useEffect(() => {
     setTimeout(() => {
       setCurrentScreen(Screen.LoginOrSignupScreen);
-      // setCurrentScreen(Screen.LoginSuccess);
       login.length < 3 && setLogin('user');
       password.length < 3 && setPassword('pass');
     }, 1500);
